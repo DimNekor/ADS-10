@@ -69,7 +69,7 @@ void Tree::Rearr(Node* head, std::vector<char> rec) {
   if (0 == head->derivatives.size()) {
     list_vec.push_back(rec);
   }
-  for (Node* derivative:head->derivatives)
+  for (Node* derivative : head->derivatives)
     Rearr(derivative, rec);
 }
 #endif  // INCLUDE_TREE_H_
