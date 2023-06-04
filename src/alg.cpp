@@ -6,5 +6,10 @@
 #include  "tree.h"
 
 std::vector<char> getPerm(const Tree& tree, int n) {
-  // напишите реализацию
+  std::vector<std::vector<char>> rearr = tree.getRearr();
+  if (rearr.size() < number) {
+    return {};
+  } else {
+    return rearr[-1 + number];
+  }
 }
