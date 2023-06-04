@@ -5,7 +5,7 @@
 #include  <cstdlib>
 #include  "tree.h"
 
-std::vector<char> getPerm(const Tree& tree, int n) {
+std::vector<char> getPerm(const Tree& tree, int number) {
   std::vector<std::vector<char>> rearr = tree.getRearr();
   if (rearr.size() < number) {
     return {};
