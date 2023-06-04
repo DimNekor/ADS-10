@@ -3,6 +3,7 @@
 #define INCLUDE_TREE_H_
 #include <vector>
 #include <iostream>
+#include <algorithm>
 
 struct Node {
   char digit = '\0';
