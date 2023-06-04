@@ -51,7 +51,7 @@ inline Node* Tree::Tree_create(Node* head, const std::vector<char>& info) {
       Tree_create(pointer, levels);
       k++;
     }
-    
+    return head;
 }
 
 inline std::vector<std::vector<char>> Tree::getRearr() const {
